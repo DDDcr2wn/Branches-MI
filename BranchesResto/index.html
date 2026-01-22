@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mang Inasal Branch Locator</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container py-4">
+    <h3 class="text-center mb-3">Mang Inasal Branch Locator</h3>
+    <p class="text-center">
+        Click the button to load Mang Inasal locations across the Philippines.
+    </p>
+
+    <div class="text-center mb-3">
+        <button class="btn btn-success load">
+            <img src="Images/Inasal.png" alt="Mang Inasal" height="30px">
+            Load Mang Inasal
+        </button>
+    </div>
+
+    <div id="map"></div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

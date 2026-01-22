@@ -1,0 +1,14 @@
+body {
+    background: #8fbc8f;
+    min-height: 100vh;
+}
+
+h3 {
+    color: white;
+    text-shadow: 2px 2px 4px #515050;
+}
+
+#map {
+    height: 520px;
+    border-radius: 15px;
+}
